@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="layoutReplacePage" prefHeight="407.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="baldens.checkoncheat.controller.login.RegistrationController">
+   <children>
+      <Text layoutX="193.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="App screen grab">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="470.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By Baldens">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="326.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="inputPassord" layoutX="242.0" layoutY="188.0" prefHeight="25.0" prefWidth="193.0" promptText="Пароль" />
+      <TextField fx:id="inputLogin" layoutX="242.0" layoutY="146.0" prefHeight="25.0" prefWidth="193.0" promptText="Логин" />
+      <Button fx:id="buttonLogin" layoutX="360.0" layoutY="265.0" mnemonicParsing="false" text="Отправить" />
+      <TextField fx:id="inputName" layoutX="241.0" layoutY="230.0" prefHeight="25.0" prefWidth="193.0" promptText="Имя война" />
+      <Hyperlink fx:id="urlText" layoutX="310.0" layoutY="305.0" text="Авторизоваться &gt;&gt;" textFill="#3344e4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
